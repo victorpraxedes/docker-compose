@@ -3,7 +3,7 @@ services:
 
 ############# networking/database core images #############
 
-postgres:
+  postgres:
     image: "postgres:9.4-alpine"
     restart: always
     healthcheck:
@@ -268,7 +268,3 @@ postgres:
 
 networks:
   flowbroker:
-
-
-
-
